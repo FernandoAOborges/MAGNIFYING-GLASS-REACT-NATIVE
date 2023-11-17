@@ -1,5 +1,5 @@
 /* eslint-disable object-curly-newline */
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, memo } from 'react';
 import { View, Image, StyleSheet, Dimensions } from 'react-native';
 import { PanGestureHandler } from 'react-native-gesture-handler';
 import Animated, {
@@ -91,4 +91,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default MagnifyingGlass;
+export default memo(MagnifyingGlass);
