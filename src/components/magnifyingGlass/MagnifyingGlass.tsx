@@ -86,8 +86,8 @@ const styles = StyleSheet.create({
     height: MAGNIFIER_HEIGHT,
     overflow: 'hidden',
     borderRadius: MAGNIFIER_WIDTH / 2,
-    borderWidth: 1,
-    borderColor: 'lightgray',
+    borderWidth: 5,
+    borderColor: 'yellow',
   },
 });
 
