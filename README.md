@@ -1,4 +1,4 @@
-
+![android event](https://github.com/FernandoAOborges/MAGNIFYING-GLASS-REACT-NATIVE/actions/workflows/main.yml/badge.svg?event=push)
 # MAGNIFYING-GLASS-REACT-NATIVE
 
 Projeto de lupa implementado em React Native, utilizando `react-native-reanimated`.
