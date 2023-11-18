@@ -2,6 +2,8 @@
 # MAGNIFYING-GLASS-REACT-NATIVE
 
 Projeto de lupa implementado em React Native, utilizando `react-native-reanimated`.
+<br>
+Magnifying glass project implemented in React Native, using react-native-reanimated.
 
 ## Video
 
