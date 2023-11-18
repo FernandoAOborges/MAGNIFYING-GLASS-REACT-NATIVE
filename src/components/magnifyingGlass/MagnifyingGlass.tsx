@@ -8,6 +8,8 @@ import Animated, {
   useSharedValue,
 } from 'react-native-reanimated';
 
+const { width, height } = Dimensions.get('window');
+
 const MAGNIFIER_WIDTH = 200;
 const MAGNIFIER_HEIGHT = 200;
 const ZOOM_LEVEL = 1.5;
@@ -24,7 +26,6 @@ const MagnifyingGlass = ({ src }: IMagnifyingGlassProps) => {
   const showMagnifier = useSharedValue(false);
 
   useEffect(() => {
-    const { width, height } = Dimensions.get('window');
     setImgSize({ width, height });
 
     touchX.value = width / 2;
